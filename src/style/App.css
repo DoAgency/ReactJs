@@ -1,0 +1,31 @@
+body {
+    margin: 0px !important;
+  }
+  
+  a {
+    color: var(--link);;
+  }
+  
+  
+  /*Template Home e 404*/
+  .Text-center-template {
+    background-color: var(--grigioScuro);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  /*Template per pagine*/
+  .page-template {
+    background-color: var(--grigioScuro);
+    min-height: 100vh;
+    color: white;
+    padding: 80px;
+  }
+  .page-template .titolo-page {
+    margin-bottom: 50px;
+  }
