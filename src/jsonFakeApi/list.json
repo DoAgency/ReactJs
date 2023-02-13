@@ -1,6 +1,6 @@
 [
 	{
-		"_id":{"$oid":"63c57cd73d886f35754d38da"},
+		"_id":{"$oid":"1-3c57cd73d886f35754d38da"},
 		"nome":"Mario Rossi",
 		"codice": 120030,
 		"peso":{"$numberDouble":"87.2"},
@@ -10,6 +10,36 @@
 			{
 				"sesso": "maschio",
 				"professione": "Medico"
+			}
+		],
+
+		"secondaryValues":{
+			"oggetto1":{
+				"id":"83c2618d-a008-45f4-a04f-eaa24dfba599",
+				"value":{"Casa":"Bianca"}
+			},
+			"oggetto2":{
+				"id":"af52f3d9-333d-45e0-b497-0c5d9ba716fb",
+				"value":{"Casa":"Gialla"}
+				},
+			"oggetto3":{
+				"id":"6677e9c3-926a-4703-b417-45b5783a15d2",
+				"value":{"Casa":"Blu"}
+			}
+		}
+
+	},
+	{
+		"_id":{"$oid":"2-3c57cd73d886f35754d38da"},
+		"nome":"Giovanni Verdi",
+		"codice": 120030,
+		"peso":{"$numberDouble":"87.2"},
+		"createdAt":"2023-01-16T17:18:24.885411",
+		"operativo":false,
+		"tags":[
+			{
+				"sesso": "maschio",
+				"professione": "Architetto"
 			}
 		],
 
